@@ -35,7 +35,7 @@ public class Main {
         MovieSession movieSession1 = new MovieSession();
         movieSession1.setMovie(fastAndFurious);
         movieSession1.setCinemaHall(cinemaHall);
-        movieSession1.setShowTime(LocalDateTime.of(2024, 5, 10, 14, 0));
+        movieSession1.setShowTime(LocalDateTime.of(2024, 5, 9, 23, 59, 59));
 
         MovieSession movieSession2 = new MovieSession();
         movieSession2.setMovie(fastAndFurious);
@@ -45,7 +45,7 @@ public class Main {
         MovieSession movieSession3 = new MovieSession();
         movieSession3.setMovie(fastAndFurious);
         movieSession3.setCinemaHall(cinemaHall);
-        movieSession3.setShowTime(LocalDateTime.of(2024, 5, 11, 14, 0));
+        movieSession3.setShowTime(LocalDateTime.of(2024, 5, 11, 0, 0, 0));
 
         MovieSessionService movieSessionService = (MovieSessionService) injector
                 .getInstance(MovieSessionService.class);
